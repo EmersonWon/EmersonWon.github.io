@@ -35,6 +35,11 @@ Work experience
 * Spring 2026 - current: Undergraduate Research Intern
   * Duties included: Working on a research topic 
   * Supervisor: [Lili Zheng](https://lili-zheng-stat.github.io/)
+
+* Fall 2026 - current: Teaching Assistant
+  * USTC; MATH3004.01 (Functional Analysis)
+  * Duties included: Reviewing homework, conducting a problem-solving session
+  * Supervisor: Yuchen Liao 
   
 Skills
 ======
@@ -43,6 +48,7 @@ Skills
   * Python
   * C/C++
   * \LaTeX
+  * Lean 
 
 
 <!-- Publications
