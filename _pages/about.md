@@ -2,6 +2,7 @@
 permalink: /
 title: "Welcome to my homepage!"
 author_profile: true
+matrix_rain: true
 redirect_from: 
   - /about/
   - /about.html

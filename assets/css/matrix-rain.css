@@ -1,0 +1,49 @@
+/* Keep the decorative canvas behind the existing page, without intercepting input. */
+.has-matrix-rain {
+  isolation: isolate;
+}
+
+#matrix-rain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.16;
+  /* Leave the reading area quiet; let the rain show mainly at the edges. */
+  -webkit-mask-image: linear-gradient(to right, #000, #0002 22%, #0002 78%, #000);
+  mask-image: linear-gradient(to right, #000, #0002 22%, #0002 78%, #000);
+}
+
+html[data-theme="dark"] #matrix-rain {
+  opacity: 0.28;
+}
+
+#matrix-rain-toggle {
+  margin-top: 0.6em;
+  padding: 0.2em 0.5em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #matrix-rain {
+    opacity: 0.09;
+  }
+
+  html[data-theme="dark"] #matrix-rain {
+    opacity: 0.16;
+  }
+}
+
+@media print, (prefers-reduced-motion: reduce) {
+  #matrix-rain, #matrix-rain-toggle {
+    display: none;
+  }
+}
