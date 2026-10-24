@@ -32,6 +32,10 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
   
+* Spring 2026 - current: Undergraduate Research Intern
+  * Duties included: Working on a research topic 
+  * Supervisor: [Lili Zheng](https://lili-zheng-stat.github.io/)
+  
 Skills
 ======
 * Coding
